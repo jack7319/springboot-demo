@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Insert title here</title>
+</head>
+<body>
+[[${name}]]</br>
+1111</br>
+<a th:href="@{/login?logout}">logout</a><br>
+<a th:href="@{/github}">github登陆</a>
+</body>
+<script type="text/javascript" th:inline="javascript">
+var name = [[${name}]];
+</script>
+</html>
